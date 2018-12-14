@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Filename:    attrs-redpointview.xml
+  ~ Description:
+  ~ Copyright:   PPD NCB Copyright(c)2018
+  ~ @author:     liutao03
+  ~ @version:    1.0
+  ~ Create at:   18-12-5 下午2:10
+  ~
+  ~ Modification History:
+  ~ Date         Author      Version     Description
+  ~ 18-12-5 下午2:10     liutao03     1.0       1.0 Version
+  -->
+
+<resources>
+    <declare-styleable name="TLRedPointView">
+        <attr name="tlRedPointViewTextSize" format="integer" />
+        <attr name="tlRedPointViewTextColor" format="color" />
+        <attr name="tlRedPointViewBGColor" format="color" />
+        <attr name="tlRedPointViewCount" format="integer" />
+        <attr name="tlRedpointViewZeroShowPoint" format="boolean" />
+        <attr name="tlRedPointViewZeroRadius" format="integer" />
+        <attr name="tlRedPointStyle" format="enum">
+            <enum name="circle_point" value="0" />
+            <enum name="popular" value="1" />
+
+        </attr>
+    </declare-styleable>
+</resources>

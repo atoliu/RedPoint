@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.atoliu.redpoint.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tev1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/redpoint"
+            android:fontFamily="@font/fangzhenglanting"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="#ffffff"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/tev2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/redpoint"
+            android:fontFamily="@font/fangzhenglanting"
+            android:gravity="center"
+            android:text="20"
+            android:textColor="#ffffff"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/tev3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/redpoint"
+            android:fontFamily="@font/fangzhenglanting"
+            android:gravity="center"
+            android:text="99+"
+            android:textColor="#ffffff"
+            android:textSize="8sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/popular"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tev4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:fontFamily="@font/fangzhenglanting"
+                android:gravity="center"
+                android:text="热门"
+                android:textColor="#ffffff"
+                android:textSize="8sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.atoliu.redpoint.TLRedPointView
+            android:id="@+id/redtv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/redpoint"
+            android:fontFamily="@font/fangzhenglanting"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="6sp"
+            app:tlRedPointViewCount="7"
+            app:tlRedPointViewTextSize="5" />
+
+        <com.atoliu.redpoint.TLRedPointView
+            android:id="@+id/redtv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/redpoint"
+            android:fontFamily="@font/fangzhenglanting"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="6sp"
+            app:tlRedPointViewCount="20"
+            app:tlRedPointViewTextSize="5" />
+
+        <com.atoliu.redpoint.TLRedPointView
+            android:id="@+id/redtv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/redpoint"
+            android:fontFamily="@font/fangzhenglanting"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="6sp"
+            app:tlRedPointViewCount="100"
+            app:tlRedPointViewTextSize="5" />
+
+        <com.atoliu.redpoint.TLRedPointView
+            android:id="@+id/redtv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/redpoint"
+            android:fontFamily="@font/fangzhenglanting"
+            android:gravity="center"
+            android:text="热门"
+            android:textColor="#ffffff"
+            android:textSize="6sp"
+            app:tlRedPointStyle="popular"
+            app:tlRedPointViewCount="100"
+            app:tlRedPointViewTextSize="7" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/redpoint"
+            android:fontFamily="@font/unisansbook"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="#ffffff"
+            android:textSize="7sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/redpoint"
+            android:fontFamily="@font/unisansbook"
+            android:gravity="center"
+            android:text="20"
+            android:textColor="#ffffff"
+            android:textSize="7sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/redpoint"
+            android:fontFamily="@font/unisansbook"
+            android:gravity="center"
+            android:text="99+"
+            android:textColor="#ffffff"
+            android:textSize="7sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popular"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:fontFamily="@font/fangzhenglanting"
+            android:gravity="center"
+            android:text="热门"
+            android:textColor="#ffffff"
+            android:textSize="7sp" />
+    </LinearLayout>
+
+    <com.atoliu.redpoint.TLRedPointView
+        android:id="@+id/num_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        app:tlRedPointViewBGColor="#FF547A"
+        app:tlRedPointViewCount="100"
+        app:tlRedPointViewTextColor="#ffffff"
+        app:tlRedPointViewTextSize="7" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:text="字体大小设置" />
+
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/text_size_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:max="30" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="num数字大小设置" />
+
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/text_num_seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:max="150" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="num数字大小设置0-9" />
+
+
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/text_num10_seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:max="9" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="数字0 显示红点" />
+
+
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/text_zerosize_seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:max="50" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="设置角标和目标view Top之间的距离" />
+
+
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/text_topmargin_seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:max="500"
+                android:progress="250" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="设置角标和目标view left之间的距离" />
+
+
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/text_leftmargin_seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:max="500"
+                android:progress="250" />
+
+            <Button
+                android:id="@+id/redpoint_bg_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="背景颜色设置" />
+
+            <Button
+                android:id="@+id/redpoint_text_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="文字颜色设置" />
+
+            <Button
+                android:id="@+id/redpoint_set_dy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="代码中设置" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="xixixi" />
+                </LinearLayout>
+
+                <com.atoliu.redpoint.TLRedPointView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:tlRedPointViewCount="12" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="xixixi" />
+
+                <com.atoliu.redpoint.TLRedPointView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:tlRedPointViewCount="12" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="xixixi" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12" />
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
