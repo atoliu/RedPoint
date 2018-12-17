@@ -1,4 +1,4 @@
-package com.atoliu.redpoint;
+package com.atoliu.redpoint.demo;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import com.ppdai.redpoint.R;
+import com.atoliu.redpoint.TLRedPointView;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -98,7 +98,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
                 label.isShowZeroNumPoint(true);
-                label.setZeroRadius(i);
+                label.setmCount(i);
+                label.setZeroRadius(10);
 
             }
 

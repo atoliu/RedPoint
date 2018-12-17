@@ -20,7 +20,6 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
-import com.ppdai.redpoint.R;
 
 public class TLRedPointView extends AppCompatTextView {
     private static final int NUM_MAX = 100;
@@ -35,7 +34,7 @@ public class TLRedPointView extends AppCompatTextView {
     private int mCount = 0;
     private GradientDrawable mBgDrawable;
     private boolean showZeroNumPoint = false;
-    private int mZeroRadius = TEXT_SIZE / 2;
+    private int mZeroRadius = TEXT_SIZE;
     private String mText = "";
     private boolean isPopular = false;
 
@@ -151,7 +150,6 @@ public class TLRedPointView extends AppCompatTextView {
 
     public void setZeroRadius(int zeroRadius) {
         this.mZeroRadius = zeroRadius;
-        setmCount(mCount);
     }
 
     public void isPopular(boolean popular) {
