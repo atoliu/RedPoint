@@ -250,7 +250,6 @@ public class MainActivity extends AppCompatActivity {
 
     private TLRedPointView mRedLabelText;
 
-    public String gifurl = "https://media.giphy.com/media/xThtama8b8ZGtnMeuQ/giphy.gif?value=123";
 
     private void showRed(View view) {
         if (mRedLabel == null) {
@@ -259,13 +258,6 @@ public class MainActivity extends AppCompatActivity {
             mRedLabel.isPopular(true);
             mRedLabel.setmText("热门");
             mRedLabel.setTargetView(view);
-        }
-        try {
-            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
-            Log.e("date", dateFormat.format(new Date()));
-
-        } catch (Exception e) {
-            e.printStackTrace();
         }
 
 //        mRedLabel.setmCount(10);
